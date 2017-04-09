@@ -1,0 +1,86 @@
+.container {
+  margin-top: 1%;
+}
+.text-info{
+  
+}
+.row {
+  overflow: hidden;
+  margin-top: 2px;
+  height: 70px;
+  position: relative; 
+}
+.row-header{
+    background-color: rgb(92,82,87);
+}
+.row-active{
+    background-color: rgb(184,204,166);
+}
+.row-offline{
+    background-color: rgb(74,94,130);
+}
+.t-header-text{
+  margin-left: 10%;
+  color:white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;   
+  font-size: 35px;
+  
+}
+.text-info{
+  font-family: 'Ubuntu', sans-serif;
+   margin: 0;
+   position: absolute;           
+   top: 50%;
+   -webkit-transform: translate(0, -50%);
+   -o-transform: translate(0, -50%);
+   transform: translate(0, -50%);   
+  
+}
+.text-online{
+  color:rgb(92,82,87);
+  font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(184,204,166);
+  
+}
+.text-offline{
+  color:rgb(184,204,166);
+}
+  .img-border {
+    margin: 0;
+    max-height:80%;
+    max-width:80%;
+   position: absolute;           
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);   
+    border: solid;
+    border-color: rgb(230,230,230);
+    
+    border-radius: 50%;
+  }
+
+.test{
+  position: relative; 
+  height:100%;
+  overflow:hidden;
+}
+.test1{
+  border: solid;
+  border-color:red;
+    text-align: center;
+}
+#picture{
+
+  margin:0;
+  max-height:90%;
+  max-width:90%;
+  overflow:hidden;
+}
+.img{
+  max-width:50px;
+  max-height:50px;
+  overflow: hidden;
+}
